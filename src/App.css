@@ -1,0 +1,114 @@
+.app{
+  background: url('Images/bg-image.jpg');
+  background-size: cover;
+  border-radius: 5px;
+}
+.title{
+  width: 50% auto;
+  padding:1%;
+}
+.content{
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+.totalAmounts,.receivables{
+  width: 80%;
+  margin:auto;
+  background: #fffab2ea;
+}
+.modal{
+  background: #fffab2ea;
+  outline: none;
+}
+.totalAmounts .amount-box{
+  border-radius:5px;
+  background-color: white;
+  box-shadow: 2px;
+}
+.row{
+  margin-bottom: 0;
+}
+.receivables{
+  margin-top: 1%;
+  position: relative;
+}
+.table, .table div{
+  padding-bottom: 2%;
+}
+.table > .row div{
+  padding-bottom:2px;
+}
+.t-header{
+  font-weight: bold;
+}
+.btn-add{
+  z-index: 2;
+  position: absolute;
+  right:5%;
+}
+ /* label color */
+ .input-field label {
+  color: #000;
+}
+
+/* For Forms */
+
+.input-field input + label{
+  color: #282c34;
+}
+/* label focus color */
+.input-field input:focus + label {
+  color:orange !important;
+}
+/* label underline focus color */
+.input-field input:focus  {
+  border-bottom: 2px solid orange !important;
+  box-shadow: 0 1px 0 0 orange !important;
+}
+/* valid color */
+.input-field input .valid {
+  border-bottom: 1px solid orange;
+  box-shadow: 0 1px 0 0 orange;
+}
+/* invalid color */
+.input-field input .invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 orange;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: orange;
+   }
+#PayModal .active{
+  font-weight: bolder;
+   }
+  
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
